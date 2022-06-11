@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 
 # EDIT: name of package
-project(template_msg_pkg)
+project(ros_msg_pkg)
 
 # EDIT: list all <build_depend> and <depend> package dependencies
 find_package(catkin REQUIRED COMPONENTS

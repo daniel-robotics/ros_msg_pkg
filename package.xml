@@ -2,7 +2,7 @@
 <package format="2">
   <name>template_msg_pkg</name>
   <version>0.0.0</version>
-  <description>The template_msg_pkg package</description>
+  <description>The ros_msg_pkg package</description>
 
   <maintainer email="daniel.kennedy.m1@gmail.com">Daniel Kennedy</maintainer>
   
@@ -14,10 +14,11 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <!-- Required for all packages contianing custom messages -->
   <build_depend>message_generation</build_depend>
   <exec_depend>message_runtime</exec_depend>
 
-  <!-- Add/change depend tags if these messages
+  <!-- EDIT: Add/change depend tags if these messages
         depend on something besides std_msgs -->
   <depend>std_msgs</depend>
 
